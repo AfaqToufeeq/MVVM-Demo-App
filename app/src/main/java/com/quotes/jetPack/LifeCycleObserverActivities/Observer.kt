@@ -1,4 +1,4 @@
-package app.practice.androidarchitectureandjetpack.LifeCycleObserverActivities
+package com.quotes.jetPack.LifeCycleObserverActivities
 
 import android.util.Log
 import androidx.lifecycle.Lifecycle

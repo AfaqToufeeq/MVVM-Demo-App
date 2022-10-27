@@ -1,4 +1,4 @@
-package app.practice.androidarchitectureandjetpack.ViewModelActivities
+package com.quotes.jetPack.ViewModelActivities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -11,7 +11,6 @@ import com.quotes.jetPack.R
 class ViewModelActivity : AppCompatActivity() {
 
     lateinit var textCount : TextView
-    lateinit var button : Button
 
     lateinit var mainViewModel: MainViewModel
     override fun onCreate(savedInstanceState: Bundle?) {

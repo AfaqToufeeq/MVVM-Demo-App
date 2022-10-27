@@ -1,9 +1,8 @@
-package app.practice.androidarchitectureandjetpack
+package com.quotes.jetPack.LifeCycleObserverActivities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import app.practice.androidarchitectureandjetpack.LifeCycleObserverActivities.Observer
 import com.quotes.jetPack.R
 
 class MainActivity : AppCompatActivity() {

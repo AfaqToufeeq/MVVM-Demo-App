@@ -1,4 +1,4 @@
-package app.practice.androidarchitectureandjetpack.ViewModelActivities
+package com.quotes.jetPack.ViewModelActivities
 
 import androidx.lifecycle.ViewModel
 

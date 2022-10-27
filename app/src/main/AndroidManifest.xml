@@ -9,17 +9,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ComponentsAndJetPackApp">
+
         <activity
-            android:name="app.practice.androidarchitectureandjetpack.ViewModelActivities.ViewModelActivity"
+            android:name=".QuotesApp.QuotesActivity"
             android:exported="false" />
         <activity
-            android:name="app.practice.androidarchitectureandjetpack.MainActivity"
+            android:name=".ViewModelActivities.ViewModelActivity"
             android:exported="false" />
         <activity
-            android:name="app.practice.androidarchitectureandjetpack.QuotesApp.QuotesActivity"
+            android:name=".LifeCycleObserverActivities.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".liveData.liveDataActivity"
+            android:exported="false" />
+        <activity
+            android:name=".dataBindingActivities.dataBindingOneActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

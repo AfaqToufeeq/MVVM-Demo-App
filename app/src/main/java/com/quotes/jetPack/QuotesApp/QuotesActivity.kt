@@ -1,4 +1,4 @@
-package app.practice.androidarchitectureandjetpack.QuotesApp
+package com.quotes.jetPack.QuotesApp
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

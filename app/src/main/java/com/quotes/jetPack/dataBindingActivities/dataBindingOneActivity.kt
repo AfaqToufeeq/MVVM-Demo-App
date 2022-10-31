@@ -22,8 +22,8 @@ class dataBindingOneActivity : AppCompatActivity() {
 
         //declaratively Bind the Data with the view
 
-        val infoObj = infoClass("Afaq Toufeeq")
-        binding.nameInfo = infoObj
+//        val infoObj = infoClass("Afaq Toufeeq")
+//        binding.nameInfo = infoObj
 
 //        val informationObj = Information("Afaq Toufeeq, Android Developer")
 //        binding.nameTextView = informationObj

@@ -3,11 +3,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
+<<<<<<< HEAD
     <data>
         <variable
             name="nameInfo"
             type="com.quotes.jetPack.dataBindingActivities.InfoClass" />
     </data>
+=======
+<!--    <data>-->
+<!--        <variable-->
+<!--            name="nameInfo"-->
+<!--            type="com.quotes.jetPack.dataBindingActivities.infoClass" />-->
+<!--    </data>-->
+>>>>>>> 74bce5fca9f2613e80cc2ac3ac6f5f0fd7f9c71e
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,8 +29,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="28sp"
-            android:text="@{nameInfo.infoName1}"
             android:padding="6dp"/>
+<!--            android:text="@{nameInfo.infoName1}"-->
+
 
         <Button
             android:id="@+id/button_Name"

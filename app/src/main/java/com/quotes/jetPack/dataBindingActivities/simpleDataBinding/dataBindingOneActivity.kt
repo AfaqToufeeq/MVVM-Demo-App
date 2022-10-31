@@ -1,4 +1,4 @@
-package com.quotes.jetPack.dataBindingActivities
+package com.quotes.jetPack.dataBindingActivities.simpleDataBinding
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -26,7 +26,7 @@ class dataBindingOneActivity : AppCompatActivity() {
         binding.nameInfo = infoObj
 
         binding.buttonName.setOnClickListener {
-            binding.nameInfo=InfoClass("Jerry Axe")
+            binding.nameInfo= InfoClass("Jerry Axe")
         }
 
     }

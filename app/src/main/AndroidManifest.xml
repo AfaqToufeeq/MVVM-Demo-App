@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ComponentsAndJetPackApp">
-
+        <activity
+            android:name=".dataBindingActivities.simpleDataBinding.dataBindingOneActivity"
+            android:exported="false" />
         <activity
             android:name=".QuotesApp.QuotesActivity"
             android:exported="false" />
@@ -23,7 +25,7 @@
             android:name=".liveData.liveDataActivity"
             android:exported="false" />
         <activity
-            android:name=".dataBindingActivities.dataBindingOneActivity"
+            android:name=".dataBindingActivities.DataBinding_MVVM.dataBindingActivity_MVVM"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

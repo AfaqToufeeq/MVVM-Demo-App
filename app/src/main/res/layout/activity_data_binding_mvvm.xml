@@ -5,33 +5,34 @@
 
     <data>
         <variable
-            name="nameInfo"
-            type="com.quotes.jetPack.dataBindingActivities.simpleDataBinding.InfoClass" />
+            name="mainViewModel2"
+            type="com.quotes.jetPack.dataBindingActivities.DataBinding_MVVM.MainViewModel_binding" />
     </data>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
         android:gravity="center"
-        tools:context=".dataBindingActivities.simpleDataBinding.dataBindingOneActivity">
+        android:orientation="vertical"
+        tools:context=".dataBindingActivities.DataBinding_MVVM.dataBindingActivity_MVVM">
 
         <TextView
-            android:id="@+id/textView_Name"
+            android:id="@+id/textView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="28sp"
-            android:text="@{nameInfo.infoName1}"
-            android:padding="6dp"/>
+
+            android:padding="6dp" />
 
         <Button
-            android:id="@+id/button_Name"
+            android:id="@+id/buttonName1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:padding="6dp"
+            android:onClick="@{()->mainViewModel2.updateQuote()}"
             android:text="Binding Button"
-            android:textSize="18sp"/>
+            android:textSize="18sp" />
 
     </LinearLayout>
 </layout>

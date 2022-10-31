@@ -6,7 +6,7 @@
     <data>
         <variable
             name="nameInfo"
-            type="com.quotes.jetPack.dataBindingActivities.infoClass" />
+            type="com.quotes.jetPack.dataBindingActivities.InfoClass" />
     </data>
 
     <LinearLayout

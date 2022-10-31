@@ -22,13 +22,8 @@ class dataBindingOneActivity : AppCompatActivity() {
 
         //declaratively Bind the Data with the view
 
-<<<<<<< HEAD
         val infoObj = InfoClass("Afaq Toufeeq")
         binding.nameInfo = infoObj
-=======
-//        val infoObj = infoClass("Afaq Toufeeq")
-//        binding.nameInfo = infoObj
->>>>>>> 74bce5fca9f2613e80cc2ac3ac6f5f0fd7f9c71e
 
         binding.buttonName.setOnClickListener {
             binding.nameInfo=InfoClass("Jerry Axe")

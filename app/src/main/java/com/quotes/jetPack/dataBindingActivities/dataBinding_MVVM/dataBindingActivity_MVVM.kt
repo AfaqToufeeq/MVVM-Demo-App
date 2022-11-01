@@ -1,4 +1,4 @@
-package com.quotes.jetPack.dataBindingActivities.DataBinding_MVVM
+package com.quotes.jetPack.dataBindingActivities.dataBinding_MVVM
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

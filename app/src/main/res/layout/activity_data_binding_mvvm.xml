@@ -6,7 +6,7 @@
     <data>
         <variable
             name="mainViewModel2"
-            type="com.quotes.jetPack.dataBindingActivities.DataBinding_MVVM.MainViewModel_binding" />
+            type="com.quotes.jetPack.dataBindingActivities.dataBinding_MVVM.MainViewModel_binding" />
     </data>
 
     <LinearLayout
@@ -14,7 +14,7 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical"
-        tools:context=".dataBindingActivities.DataBinding_MVVM.dataBindingActivity_MVVM">
+        tools:context=".dataBindingActivities.dataBinding_MVVM.dataBindingActivity_MVVM">
 
         <TextView
             android:id="@+id/textView1"

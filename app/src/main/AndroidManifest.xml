@@ -25,7 +25,7 @@
             android:name=".liveData.liveDataActivity"
             android:exported="false" />
         <activity
-            android:name=".dataBindingActivities.DataBinding_MVVM.dataBindingActivity_MVVM"
+            android:name=".dataBindingActivities.dataBinding_MVVM.dataBindingActivity_MVVM"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

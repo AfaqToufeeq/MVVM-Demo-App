@@ -16,12 +16,20 @@
         android:orientation="vertical"
         tools:context=".dataBindingActivities.dataBinding_MVVM.dataBindingActivity_MVVM">
 
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:padding="5dp"
+            android:text="@={mainViewModel2.quoteLiveData}"/>
+
         <TextView
             android:id="@+id/textView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="28sp"
-
+            android:textSize="24sp"
+            android:layout_marginTop="10dp"
+            android:text="@{mainViewModel2.quoteLiveData}"
             android:padding="6dp" />
 
         <Button

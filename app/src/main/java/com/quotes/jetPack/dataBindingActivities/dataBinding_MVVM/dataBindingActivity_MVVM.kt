@@ -18,11 +18,13 @@ class dataBindingActivity_MVVM : AppCompatActivity() {
         binding = DataBindingUtil.setContentView(this, R.layout.activity_data_binding_mvvm)
         mainViewModel = ViewModelProvider(this).get(MainViewModel_binding::class.java)
 
-        mainViewModel.quoteLiveData.observe(this, Observer {
-            binding.textView1.text = it
-        })
+//        mainViewModel.quoteLiveData.observe(this, Observer {
+//            binding.textView1.text = it
+//        })
 
         binding.mainViewModel2 = mainViewModel
+        binding.lifecycleOwner=this          //life cycle observer
+
 
 //        binding.buttonName1.setOnClickListener {
 //            mainViewModel.updateQuote()
